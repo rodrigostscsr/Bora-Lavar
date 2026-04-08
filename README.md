@@ -15,7 +15,6 @@ Aplicação web que sugere como remover manchas de diferentes tecidos, combinand
 
 - **HTML5** e **CSS3** (layout flexível, transições)
 - **JavaScript (ES6+)** – manipulação de DOM, eventos, `localStorage`
-- **Design System** – classes modulares e semânticas
 
 ## Como executar
 
