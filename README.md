@@ -26,3 +26,4 @@ Aplicação web que sugere como remover manchas de diferentes tecidos, combinand
 - Implementação de mais regras do servidor
 - Opção de configuração do usuário para ordenação de regras
 - Exclusão de regras locais individuais
+- Implementação de banco de dados
