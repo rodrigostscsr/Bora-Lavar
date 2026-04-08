@@ -19,9 +19,7 @@ Aplicação web que sugere como remover manchas de diferentes tecidos, combinand
 
 ## Como executar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/laundry-helper.git
+- https://bora-lavar-18rljywn5-rodrigostscsrs-projects.vercel.app/
 
 ## Planos futuros
 - Utilização da biblioteca React
