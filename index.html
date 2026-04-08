@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Como Lavar Roupa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Área de regras (lado esquerdo) -->
+    <div id="resultado"></div>
+
+    <!-- Container central (menu circular) -->
+    <div class="center-container">
+        <!-- Botão central (sempre visível) -->
+        <button id="centralBtn" class="central-btn" aria-label="Menu principal">🧺</button>
+
+        <!-- Seletor de tecido e mancha (aparecem acima) -->
+        <div id="selectsWrapper" class="selects-wrapper animated-element">
+            <div class="select-group">
+                <label for="tecidoSelect">Tecido</label>
+                <select id="tecidoSelect"></select>
+            </div>
+            <div class="select-group">
+                <label for="manchaSelect">Mancha</label>
+                <select id="manchaSelect"></select>
+            </div>
+        </div>
+
+        <!-- Botões flutuantes (laterais) -->
+        <div id="floatingBtns" class="floating-buttons animated-element">
+            <button id="lavarBtn" class="action-btn left-btn" aria-label="Ver regras">🔍</button>
+            <button id="cadastrarBtn" class="action-btn right-btn" aria-label="Adicionar regra">➕</button>
+        </div>
+
+        <!-- Input para nova regra (abaixo) -->
+        <div id="inputWrapper" class="input-wrapper animated-element">
+            <input type="text" id="novaRegraLcl" placeholder="Digite a instrução da regra">
+        </div>
+
+        <!-- Botão de limpar regras locais -->
+        <button id="limparLcl" class="clear-btn animated-element">🗑️ Limpar regras</button>    </div>
+</body>
+</html>
